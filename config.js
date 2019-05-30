@@ -4,5 +4,5 @@ module.exports = {
    SPREAD_ID: "InstaBot",
    POST_INTERVAL: "0 20 * * 4",
    ADD_TO_CAPTION: '\r\r_____________________\r#Vinland',
-   HEROKU_URL: 'http://< my-app> .herokuapp.com'
+   HEROKU_URL: 'http://instabot-vinland.herokuapp.com'
 };
