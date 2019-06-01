@@ -29,7 +29,7 @@ var googleFunctions = {
                 throw err;
             }
         }
-        fs.writeFile(TOKEN_PATH, JSON.stringify(token));
+        fs.writeFile(TOKEN_PATH, JSON.stringify(token), function(err, result) {if(err) console.log('error', err)});
         console.log('Token stored to ' + TOKEN_PATH);
     },
 
